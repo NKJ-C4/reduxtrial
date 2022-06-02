@@ -1,0 +1,28 @@
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+.questions-result-container{
+    display: flex;
+    width: 900px;
+    /* justify-content: space-around; */
+}
+.quiz-question{
+    width: 266px;
+}
+.quiz-ans{
+    width: 100px;
+}
+.correct_ans{
+    font-size: 14px;
+    font-weight: 600;
+    color: lightgreen;
+}
+
+.wrong_ans{
+    font-size: 14px;
+    font-weight: 600;
+    color: red;
+}

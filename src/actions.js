@@ -1,12 +1,20 @@
-import { CHANGE_QUESTION } from "./actionTypes";
+import { CHANGE_QUESTION, FINISH_TEST, UPDATE_ANSWERS } from "./actionTypes";
 
 export const setQuestion = text => {
-    console.log(text);
+    console.log("text: ". text);
     return {
         type: CHANGE_QUESTION,
         payload: text
     }
 }
+
+export const setAnswer = obj =>{
+    return {
+        type: UPDATE_ANSWERS,
+        payload: obj
+    }
+}
+
 // import { createStore } from "redux";
 
 // const reducer = (state = 0, action) => {
